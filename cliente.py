@@ -1,4 +1,7 @@
+
 from entidad import Entidad
+from excepciones import ErrorCliente
+from registros import registrar_evento, registrar_error
 
 class Cliente(Entidad):
 

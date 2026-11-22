@@ -1,5 +1,5 @@
 from cliente import Cliente
-from servico import Servicio, ReservaSala
+from servicios import Servicio, ReservaSala
 
 class Reserva:
 
