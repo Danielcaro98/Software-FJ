@@ -2,7 +2,7 @@ import logging
 from pathlib import Path
 
 # Ruta del archivo de registros
-ruta_logs = Path(_file_).resolve().parent / "logs.txt"
+ruta_logs = Path(__file__).resolve().parent / "logs.txt"
 
 # Configuracion del registro
 logging.basicConfig(
