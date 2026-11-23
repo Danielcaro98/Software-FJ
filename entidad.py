@@ -1,4 +1,4 @@
-from abc import ABC, abstractclassmethod
+from abc import ABC, abstractmethod
 
 # clase abstracta
 class Entidad(ABC):
@@ -12,6 +12,6 @@ class Entidad(ABC):
          return self._identificador
 
         #metodo abstracto
-    @abstractclassmethod
+    @abstractmethod
     def mostrar_informacion(self):
             pass
